@@ -1,0 +1,10 @@
+#Indicar aquí comienzan los servicios para Docker
+services:
+  ms-inventario:
+    build: .
+    container_name: ms-productos
+    ports:
+      - "3000:3000"
+    environment:
+      SERVER_PORT: 3000
+    restart: unless-stopped
