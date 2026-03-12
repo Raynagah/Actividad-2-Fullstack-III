@@ -1,4 +1,3 @@
-#Indicar aquí comienzan los servicios para Docker
 services:
   ms-inventario:
     build: .
